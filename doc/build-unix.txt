@@ -20,6 +20,10 @@ make -f makefile.unix            # Headless SUMCoin
 See readme-qt.rst for instructions on building SUMCoin QT,
 the graphical SUMCoin.
 
+qmake SUMCoin-qt.pro
+make 
+(beware on symbolic link in  sumcoin/src/obj/zerocoin)
+
 Dependencies
 ------------
 

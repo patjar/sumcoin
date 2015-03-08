@@ -15,6 +15,7 @@ To Build
 
 cd src/
 make -f makefile.unix            # Headless SUMCoin
+(beware on symbolic link in  sumcoin/src/obj/zerocoin)
 
 See readme-qt.rst for instructions on building SUMCoin QT,
 the graphical SUMCoin.
